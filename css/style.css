@@ -1,0 +1,190 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+.strong{
+  font-size: 24px !important;
+}
+.panel {
+  border: 1px solid #6c757d;
+  border-radius:0 !important;
+  transition: box-shadow 0.5s;
+}
+.panel:hover {
+  box-shadow: 5px 0 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+  border: 1px solid #6c757d;
+  background-color: #fff !important;
+  color: #6c757d;
+}
+.panel-heading {
+  color: #fff !important;
+  background-color: #ff9800 !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel-footer {
+  background-color: white !important;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #ff9800;
+  color: #fff;
+}
+.fa-check , .fa-times {
+  padding: 10px;
+}
+.card::after {
+  display: block;
+  bottom: -10px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 35px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+  box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+  content: '';
+  z-index: -1;
+}
+a.card {
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  border: 0;
+  border-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+  box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+  box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+  margin-right: auto !important;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+  margin-right: auto !important;
+}
+.d-block {
+  display: block !important;
+}
+img, figure {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.card-text {
+  padding-top: 12px;
+  color: #8c8c8c;
+}
+
+.text-sm {
+  font-size: 12px !important;
+}
+span {
+  margin: 0 0 16px;
+  color: black !important;
+}
+
+.card-title {
+  margin: 0;
+  font-family: "Montserrat",sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.pt-1, .py-1 {
+  padding-top: .25rem !important;
+  color: black;
+}
+
+.head-icon{
+  margin-top:18px;
+  color:#ff9800
+}
+.fa-4x {
+  font-size: 3.5rem !important;
+}
