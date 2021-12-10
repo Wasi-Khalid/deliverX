@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f501f46-5719-4ea1-93b8-95b4e7daa970" name="Changes" comment="" />
+    <list default="true" id="9f501f46-5719-4ea1-93b8-95b4e7daa970" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deliveryx-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DeliveryX-landing" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -42,6 +44,11 @@
       <workItem from="1627683826052" duration="1045000" />
       <workItem from="1627888603390" duration="843000" />
       <workItem from="1627891907920" duration="286000" />
+      <workItem from="1629384777500" duration="253000" />
+      <workItem from="1629385064349" duration="12000" />
+      <workItem from="1629706986051" duration="609000" />
+      <workItem from="1629873795983" duration="11000" />
+      <workItem from="1630150800602" duration="193000" />
     </task>
     <servers />
   </component>
